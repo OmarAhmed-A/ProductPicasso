@@ -21,7 +21,7 @@ st.markdown(
 )
 
 # Configuration
-INGCO_URL = "https://www.ingco.com/eg-en/products/?pageNum=1&pageSize=4000"
+INGCO_URL = "https://www.ingco.com/eg-en/products?pageNum=1&pageSize=4000"
 
 @st.cache_resource
 def get_driver():
